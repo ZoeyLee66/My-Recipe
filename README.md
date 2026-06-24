@@ -1,16 +1,41 @@
 # My Recipe
 
-A new Flutter project.
+My Recipe is a Flutter recipe app that allows users to save, organize, edit, and delete their own recipes. The app also includes a recipe discovery feature using TheMealDB API, so users can browse external recipe data in addition to managing their personal recipes.
 
-## Getting Started
+## Tech Stack
 
-This project is a starting point for a Flutter application.
+* Flutter
+* Dart
+* Isar local database
+* TheMealDB API
+* HTTP
+* SVG icons
+* Google Fonts
 
-A few resources to get you started if this is your first Flutter project:
+## Key Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+* Add personal recipes
+* Save recipes locally using Isar
+* View saved recipes on My Page
+* Edit and delete saved recipes
+* Add recipe name, ingredients, cooking steps, image, and categories
+* Select up to two categories per recipe
+* Filter saved recipes by category
+* Browse recipe data from TheMealDB API
+* Empty state design for pages with no saved recipes
+* User-focused mobile app flow
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Project Focus
+
+The main focus of this project was building a practical mobile app where users can manage their own recipe collection in a clear and organized way. I focused on creating a simple user flow for adding recipes, saving them locally, and displaying them back to the user in a way that feels easy to navigate.
+
+This project also helped me work with local database storage, CRUD functionality, API integration, and mobile UI design in Flutter.
+
+## My Role
+
+I designed and implemented the app, including the user interface, recipe creation flow, local database structure, saved recipe display, category filtering, and API-based recipe browsing feature.
+
+## Demo
+
+https://www.youtube.com/shorts/NZDvuQ30YLs
+
